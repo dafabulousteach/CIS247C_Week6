@@ -1,5 +1,5 @@
 /* CIS 247C
- * Feburary XX, 2015
+ * Feburary 16, 2015
  * Kim Merino
  * Lab 6 Week 6
  * Employee Main Program
