@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3B1ED6701A8BBA9300043264 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B1ED66F1A8BBA9300043264 /* main.cpp */; };
+		3B1ED6781A8BBAFB00043264 /* Benefits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B1ED6761A8BBAFB00043264 /* Benefits.cpp */; };
+		3B1ED67B1A8BBB1400043264 /* Salaried.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B1ED6791A8BBB1400043264 /* Salaried.cpp */; };
+		3B1ED67E1A8BBB3600043264 /* Hourly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B1ED67C1A8BBB3600043264 /* Hourly.cpp */; };
+		3B1ED6811A8BBE0000043264 /* Employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B1ED67F1A8BBE0000043264 /* Employee.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		3B1ED66C1A8BBA9300043264 /* Week6Lab_MerinoK */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week6Lab_MerinoK; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1ED66F1A8BBA9300043264 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3B1ED6761A8BBAFB00043264 /* Benefits.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Benefits.cpp; sourceTree = "<group>"; };
+		3B1ED6771A8BBAFB00043264 /* Benefits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Benefits.h; sourceTree = "<group>"; };
+		3B1ED6791A8BBB1400043264 /* Salaried.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Salaried.cpp; sourceTree = "<group>"; };
+		3B1ED67A1A8BBB1400043264 /* Salaried.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Salaried.h; sourceTree = "<group>"; };
+		3B1ED67C1A8BBB3600043264 /* Hourly.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Hourly.cpp; sourceTree = "<group>"; };
+		3B1ED67D1A8BBB3600043264 /* Hourly.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Hourly.h; sourceTree = "<group>"; };
+		3B1ED67F1A8BBE0000043264 /* Employee.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = Employee.cpp; sourceTree = "<group>"; };
+		3B1ED6801A8BBE0000043264 /* Employee.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Employee.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				3B1ED66F1A8BBA9300043264 /* main.cpp */,
+				3B1ED6761A8BBAFB00043264 /* Benefits.cpp */,
+				3B1ED6771A8BBAFB00043264 /* Benefits.h */,
+				3B1ED6791A8BBB1400043264 /* Salaried.cpp */,
+				3B1ED67A1A8BBB1400043264 /* Salaried.h */,
+				3B1ED67C1A8BBB3600043264 /* Hourly.cpp */,
+				3B1ED67D1A8BBB3600043264 /* Hourly.h */,
+				3B1ED67F1A8BBE0000043264 /* Employee.cpp */,
+				3B1ED6801A8BBE0000043264 /* Employee.h */,
 			);
 			path = Week6Lab_MerinoK;
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1ED6811A8BBE0000043264 /* Employee.cpp in Sources */,
 				3B1ED6701A8BBA9300043264 /* main.cpp in Sources */,
+				3B1ED6781A8BBAFB00043264 /* Benefits.cpp in Sources */,
+				3B1ED67E1A8BBB3600043264 /* Hourly.cpp in Sources */,
+				3B1ED67B1A8BBB1400043264 /* Salaried.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +233,7 @@
 		3B1ED6751A8BBA9300043264 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"MTL_ENABLE_DEBUG_INFO[arch=*]" = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
